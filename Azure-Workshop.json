@@ -1,0 +1,431 @@
+{
+  "luis_schema_version": "1.3.1",
+  "versionId": "0.1",
+  "name": "Azure-Workshop",
+  "desc": "",
+  "culture": "en-us",
+  "intents": [
+    {
+      "name": "None"
+    },
+    {
+      "name": "set_alarm"
+    },
+    {
+      "name": "turn_lights_on"
+    },
+    {
+      "name": "turn_thermostat"
+    }
+  ],
+  "entities": [
+    {
+      "name": "Sound"
+    },
+    {
+      "name": "Temperature"
+    },
+    {
+      "name": "ThermostatOff"
+    },
+    {
+      "name": "Time"
+    }
+  ],
+  "composites": [],
+  "closedLists": [],
+  "bing_entities": [],
+  "actions": [],
+  "model_features": [],
+  "regex_features": [],
+  "utterances": [
+    {
+      "text": "prender luces por favor",
+      "intent": "turn_lights_on",
+      "entities": []
+    },
+    {
+      "text": "activar luces por favor",
+      "intent": "turn_lights_on",
+      "entities": []
+    },
+    {
+      "text": "prender las luces",
+      "intent": "turn_lights_on",
+      "entities": []
+    },
+    {
+      "text": "luces prender por favor",
+      "intent": "turn_lights_on",
+      "entities": []
+    },
+    {
+      "text": "quiero encender las luces",
+      "intent": "turn_lights_on",
+      "entities": []
+    },
+    {
+      "text": "quiero prender las luces",
+      "intent": "turn_lights_on",
+      "entities": []
+    },
+    {
+      "text": "prender luces",
+      "intent": "turn_lights_on",
+      "entities": []
+    },
+    {
+      "text": "encender las luces",
+      "intent": "turn_lights_on",
+      "entities": []
+    },
+    {
+      "text": "encender luces",
+      "intent": "turn_lights_on",
+      "entities": []
+    },
+    {
+      "text": "despiertame a las 9:00",
+      "intent": "set_alarm",
+      "entities": [
+        {
+          "entity": "Time",
+          "startPos": 3,
+          "endPos": 5
+        }
+      ]
+    },
+    {
+      "text": "despertarme a las 8 con musica de los beatles",
+      "intent": "set_alarm",
+      "entities": [
+        {
+          "entity": "Sound",
+          "startPos": 5,
+          "endPos": 8
+        },
+        {
+          "entity": "Time",
+          "startPos": 3,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "activar alarma para las 6:30",
+      "intent": "set_alarm",
+      "entities": [
+        {
+          "entity": "Time",
+          "startPos": 4,
+          "endPos": 6
+        }
+      ]
+    },
+    {
+      "text": "prender alarma a las 8",
+      "intent": "set_alarm",
+      "entities": [
+        {
+          "entity": "Time",
+          "startPos": 4,
+          "endPos": 4
+        }
+      ]
+    },
+    {
+      "text": "activar alarma para la hora 14",
+      "intent": "set_alarm",
+      "entities": [
+        {
+          "entity": "Time",
+          "startPos": 5,
+          "endPos": 5
+        }
+      ]
+    },
+    {
+      "text": "encender alarma con sonido suave para las 6:00",
+      "intent": "set_alarm",
+      "entities": [
+        {
+          "entity": "Sound",
+          "startPos": 3,
+          "endPos": 4
+        },
+        {
+          "entity": "Time",
+          "startPos": 7,
+          "endPos": 9
+        }
+      ]
+    },
+    {
+      "text": "activar alarma para las 8",
+      "intent": "set_alarm",
+      "entities": [
+        {
+          "entity": "Time",
+          "startPos": 4,
+          "endPos": 4
+        }
+      ]
+    },
+    {
+      "text": "encender alarma para las 9:00",
+      "intent": "set_alarm",
+      "entities": [
+        {
+          "entity": "Time",
+          "startPos": 4,
+          "endPos": 6
+        }
+      ]
+    },
+    {
+      "text": "alarma para las 13:00 con sonido de pajaros",
+      "intent": "set_alarm",
+      "entities": [
+        {
+          "entity": "Sound",
+          "startPos": 7,
+          "endPos": 9
+        },
+        {
+          "entity": "Time",
+          "startPos": 3,
+          "endPos": 5
+        }
+      ]
+    },
+    {
+      "text": "prender alarma para las 14:00",
+      "intent": "set_alarm",
+      "entities": [
+        {
+          "entity": "Time",
+          "startPos": 4,
+          "endPos": 6
+        }
+      ]
+    },
+    {
+      "text": "quiero poner una alarma para las 8",
+      "intent": "set_alarm",
+      "entities": [
+        {
+          "entity": "Time",
+          "startPos": 6,
+          "endPos": 6
+        }
+      ]
+    },
+    {
+      "text": "activar alarma para las 7:30 con música de los beatles",
+      "intent": "set_alarm",
+      "entities": [
+        {
+          "entity": "Sound",
+          "startPos": 8,
+          "endPos": 11
+        },
+        {
+          "entity": "Time",
+          "startPos": 4,
+          "endPos": 6
+        }
+      ]
+    },
+    {
+      "text": "activar alarma para las 13 con musica rock",
+      "intent": "set_alarm",
+      "entities": [
+        {
+          "entity": "Sound",
+          "startPos": 6,
+          "endPos": 7
+        },
+        {
+          "entity": "Time",
+          "startPos": 4,
+          "endPos": 4
+        }
+      ]
+    },
+    {
+      "text": "activar alarma para las 14 con musica fuerte",
+      "intent": "set_alarm",
+      "entities": [
+        {
+          "entity": "Sound",
+          "startPos": 6,
+          "endPos": 7
+        },
+        {
+          "entity": "Time",
+          "startPos": 4,
+          "endPos": 4
+        }
+      ]
+    },
+    {
+      "text": "activar alarma para las 9 con musica clasica",
+      "intent": "set_alarm",
+      "entities": [
+        {
+          "entity": "Sound",
+          "startPos": 6,
+          "endPos": 7
+        },
+        {
+          "entity": "Time",
+          "startPos": 4,
+          "endPos": 4
+        }
+      ]
+    },
+    {
+      "text": "apagar termostato",
+      "intent": "turn_thermostat",
+      "entities": [
+        {
+          "entity": "ThermostatOff",
+          "startPos": 0,
+          "endPos": 0
+        }
+      ]
+    },
+    {
+      "text": "prender el termostato en 10",
+      "intent": "turn_thermostat",
+      "entities": [
+        {
+          "entity": "Temperature",
+          "startPos": 4,
+          "endPos": 4
+        }
+      ]
+    },
+    {
+      "text": "prender el termostato a 6 grados",
+      "intent": "turn_thermostat",
+      "entities": [
+        {
+          "entity": "Temperature",
+          "startPos": 4,
+          "endPos": 4
+        }
+      ]
+    },
+    {
+      "text": "quiero prender el termostato en 29 grados",
+      "intent": "turn_thermostat",
+      "entities": [
+        {
+          "entity": "Temperature",
+          "startPos": 5,
+          "endPos": 5
+        }
+      ]
+    },
+    {
+      "text": "cambiar temperatura a 40 grados",
+      "intent": "turn_thermostat",
+      "entities": [
+        {
+          "entity": "Temperature",
+          "startPos": 3,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "encender el termostato en 10 grados",
+      "intent": "turn_thermostat",
+      "entities": [
+        {
+          "entity": "Temperature",
+          "startPos": 4,
+          "endPos": 4
+        }
+      ]
+    },
+    {
+      "text": "prender el termostato a la temperatura 30",
+      "intent": "turn_thermostat",
+      "entities": [
+        {
+          "entity": "Temperature",
+          "startPos": 6,
+          "endPos": 6
+        }
+      ]
+    },
+    {
+      "text": "desactivar termostato ahora",
+      "intent": "turn_thermostat",
+      "entities": [
+        {
+          "entity": "ThermostatOff",
+          "startPos": 0,
+          "endPos": 0
+        }
+      ]
+    },
+    {
+      "text": "termostato apagado",
+      "intent": "turn_thermostat",
+      "entities": [
+        {
+          "entity": "ThermostatOff",
+          "startPos": 0,
+          "endPos": 0
+        }
+      ]
+    },
+    {
+      "text": "desactivar termostato",
+      "intent": "turn_thermostat",
+      "entities": [
+        {
+          "entity": "ThermostatOff",
+          "startPos": 0,
+          "endPos": 0
+        }
+      ]
+    },
+    {
+      "text": "quiero apagar el termostato",
+      "intent": "turn_thermostat",
+      "entities": [
+        {
+          "entity": "ThermostatOff",
+          "startPos": 1,
+          "endPos": 1
+        }
+      ]
+    },
+    {
+      "text": "prender termostato a 15 grados",
+      "intent": "turn_thermostat",
+      "entities": [
+        {
+          "entity": "Temperature",
+          "startPos": 3,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "temperatura ambiente a 25 grados",
+      "intent": "turn_thermostat",
+      "entities": [
+        {
+          "entity": "Temperature",
+          "startPos": 3,
+          "endPos": 3
+        }
+      ]
+    }
+  ]
+}

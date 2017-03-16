@@ -126,7 +126,7 @@ Volvemos a LUIS y agregamos los datos de la Key generada, pudiendo ahora sí pub
 IMAGEN 12
 
 
-4) Ahora agregaremos la lógica creada en LUIS a nuestro bot. Para ello crearemos una nueva clase llamada RootDialog que será quien modelará la interacción con el usuario. El código de la misma se deja a continuación:
+4) Ahora agregaremos la lógica creada en LUIS a nuestro bot. Para ello crearemos una nueva clase llamada RootDialog que será quien modelará la interacción con el usuario. El código de la misma se deja en las líneas siguientes. Nota: es importante decorar el nombre de la clase con el ```modelID``` y el ```subscriptionID``` correspondientes a su modelo de LUIS.
 
 ```C#
 

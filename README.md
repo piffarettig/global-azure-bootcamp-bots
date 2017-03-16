@@ -43,8 +43,44 @@ IMAGEN 1
 IMAGEN 2
 
 3) Observar y entender el template y la estructura del proyecto creado. 
+
+
 IMAGEN 3
+
 ¿A que nos recuerda?
 
+
+Examinar el siguiente fragmento de código:
+
+```C#
+ public async Task<HttpResponseMessage> Post([FromBody]Activity activity)
+ {
+    if (activity.Type == ActivityTypes.Message)
+    {
+        ConnectorClient connector = new ConnectorClient(new Uri(activity.ServiceUrl));
+        // calculate something for us to return
+        int length = (activity.Text ?? string.Empty).Length;
+
+        // return our reply to the user
+        Activity reply = activity.CreateReply($"You sent {activity.Text} which was {length} characters");
+        await connector.Conversations.ReplyToActivityAsync(reply);
+    }
+    else
+    {
+        HandleSystemMessage(activity);
+    }
+    var response = Request.CreateResponse(HttpStatusCode.OK);
+    return response;
+}
+```
+
+4) Compilar y ejecutar el proyecto, donde se abrirá una ventana del explorador indicando el puerto en el que nuestro bot está
+atendiendo solicitudes
+
+IMAGEN 4
+
+5) Abrimos el Bot Framework Emulator que deberíamos haber descargado previamente, y colocamos la ```Bot url```; es decir el endpoint en el que nuestro bot va a estar esperando recibir los mensajes por parte de los clientes.
+
+Si tu aplicación está corriendo sobre el puerto 12345, entonces tu ```bot url``` quedaría algo así:  ```http://localhost:12345/api/messages```
 
 

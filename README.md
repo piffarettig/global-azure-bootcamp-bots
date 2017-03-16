@@ -17,18 +17,17 @@ Aquí se adjuntan las slides dadas en el evento que funcionan como introducción
 
 ### ¿Qué vamos a desarrollar? 
 
-En este workshop construiremos un bot que reconoce imagenes
+En este workshop construiremos un bot que está pensado para personas no videntes; la idea es que los mismos puedan tener la posibilidad de interactuar conversacionalmente con su entorno de forma conversacional. Para simplificar el escenario, el mismo se realizará sobre un chat (lo ideal sería que fuera por voz), y en un escenario de domótica.
 
 ### ¿Qué tecnologías vemos en este workshop
 
 - Microsoft Bot Framework
 - Cognitive Services: LUIS (entendimiento de lenguaje natural) 
-- Cognitive Services: 
+- Cognitive Services: Computer Vision API
 
 ### Requisitos del workshop
 
-- Microsoft Visual Studio 2015 (Enterprise o Communty)
-- .NET Framework VERSION???
+- Microsoft Visual Studio 2015 (Enterprise o Communty) y .Net Framework 4.6 
 - Bot Visual Studio Template - C# [(Descarga aquí)](http://aka.ms/bf-bc-vstemplate)
 - Bot Framework Emulator (Mac/Windows) - [(Descarga aquí)](https://emulator.botframework.com/)
 

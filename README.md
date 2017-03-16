@@ -455,18 +455,18 @@ public class ImageCaptionUtils
 
 ```C#
   try
-     {
-         var connector = new ConnectorClient(new Uri(activity.ServiceUrl));
-         string message = await ImageCaptionUtils.GetCaptionAsync(activity, connector);
-         Activity reply = activity.CreateReply(message);
-         await connector.Conversations.ReplyToActivityAsync(reply);
-         // await Conversation.SendAsync(activity, () => new RootDialog());
-     }
-     catch (Exception e)
-     {
-         ConnectorClient connector = new ConnectorClient(new Uri(activity.ServiceUrl));
-         Activity reply = activity.CreateReply($"Error ocurrido: {e.Message}");
-         await connector.Conversations.ReplyToActivityAsync(reply);
-     }
+  {
+      var connector = new ConnectorClient(new Uri(activity.ServiceUrl));
+      string message = await ImageCaptionUtils.GetCaptionAsync(activity, connector);
+      Activity reply = activity.CreateReply(message);
+      await connector.Conversations.ReplyToActivityAsync(reply);
+      // await Conversation.SendAsync(activity, () => new RootDialog());
+  }
+  catch (Exception e)
+  {
+      ConnectorClient connector = new ConnectorClient(new Uri(activity.ServiceUrl));
+      Activity reply = activity.CreateReply($"Error ocurrido: {e.Message}");
+      await connector.Conversations.ReplyToActivityAsync(reply);
+  }
                 
  ```

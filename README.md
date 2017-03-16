@@ -34,6 +34,17 @@ En este workshop construiremos un bot que reconoce imagenes
 
 ## Guía del Workshop
 
-1) Agregamos el template de 'Bot Application' a nuestros Templates en Visual Studio.
+1) Agregamos el template de 'Bot Application' a nuestros Templates en Visual Studio. Para ello debemos descrimir el .zip y copiar la carpeta en ```C:\...\Documents\Visual Studio 2015\Templates\ProjectTemplates\Visual C#```
 
-[[https://github.com/piffarettig/azure-and-pizza-workshop/blob/master/img/octocat.png|alt=octocat]]
+IMAGEN 1
+
+2) Abrimos el Visual Studio y creamos una nueva 'Bot Application', con el nombre y ubicación de destino que queramos.
+
+IMAGEN 2
+
+3) Observar y entender el template y la estructura del proyecto creado. 
+IMAGEN 3
+¿A que nos recuerda?
+
+
+

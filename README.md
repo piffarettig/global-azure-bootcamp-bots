@@ -114,7 +114,6 @@ IMAGEN 9
 
 Para ello nos loggeamos en nuestra cuenta de Azure y agregamos un nuevo recurso del tipo 'Cognitive Services API'. Lo configuramos para que sea del tipo ```Language Understanding Intelligence Service (LUIS)```.
 
-
 IMAGEN 10
 
 Finalmente nos quedamos con su Key que el valor que vamos a usar en LUIS.
@@ -124,5 +123,63 @@ IMAGEN 11
 
 Volvemos a LUIS y agregamos los datos de la Key generada, pudiendo ahora sí publicar nuestra aplicación 
 
-
 IMAGEN 12
+
+
+4) Ahora agregaremos la lógica creada en LUIS a nuestro bot. Para ello crearemos una nueva clase llamada RootDialog que será quien modelará la interacción con el usuario. El código de la misma se deja a continuación:
+
+```C#
+
+using Microsoft.Bot.Builder.Dialogs;
+using Microsoft.Bot.Builder.Luis;
+using Microsoft.Bot.Builder.Luis.Models;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using System.Web;
+
+namespace AzureAndPizzaWorkshop
+{
+    [LuisModel("aa0a4611-115d-488e-a0af-36288e550c35", "d374875c80fe40ff8e7d8a085caeca64")]
+    [Serializable]
+    public class RootDialog : LuisDialog<object>
+    {
+
+        [LuisIntent("")]
+        public async Task None(IDialogContext context, LuisResult result)
+        {
+            string intentNotFoundMessage = $"Disculpa, no pude entender tu mensaje.";
+            await context.PostAsync(intentNotFoundMessage);
+            context.Wait(MessageReceived);
+        }
+
+        [LuisIntent("turn_lights_on")]
+        public async Task TurnLightsOn(IDialogContext context, LuisResult result)
+        {
+            string message = $"luces prendidas!";
+            await context.PostAsync(message);
+            context.Wait(MessageReceived);
+        }
+
+        [LuisIntent("set_alarm")]
+        public async Task SetAlarm(IDialogContext context, LuisResult result)
+        {
+            string message = $"alarma asignada.";
+            await context.PostAsync(message);
+            context.Wait(MessageReceived);
+
+        }
+
+        [LuisIntent("turn_thermostat")]
+        public async Task TurnThermostat(IDialogContext context, LuisResult result)
+        {
+            string message = $"accion termostato";
+            await context.PostAsync(message);
+            context.Wait(MessageReceived);
+        }
+
+    }
+}
+
+```

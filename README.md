@@ -326,8 +326,6 @@ Y ahora agregamos lógica simple sobre el manejo de los datos dentro de las resu
  
  2) En segundo lugar lo que haremos será agregar la referencia a la librería que nos provee la funcionalidad de acceder a la Computer Vision API. La misma se llama ```Microsoft.ProjectOxford.Vision```. 
  
- IMAGEN NUGET
- 
  3) Agregaremos tres clases que definen la lógica de utilizar el reconocimiento de imagenes:
  
  Interfaz ```ICaptionService```

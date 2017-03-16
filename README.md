@@ -29,5 +29,11 @@ En este workshop construiremos un bot que reconoce imagenes
 
 - Microsoft Visual Studio 2015 (Enterprise o Communty)
 - .NET Framework VERSION???
-- Visual Studio Bot Template [(Descarga aquí)](http://aka.ms/bf-bc-vstemplate)
-- Bot Framework Emulator 
+- Bot Visual Studio Template - C# [(Descarga aquí)](http://aka.ms/bf-bc-vstemplate)
+- Bot Framework Emulator (Mac/Windows) - [(Descarga aquí)](https://emulator.botframework.com/)
+
+## Guía del Workshop
+
+1) Agregamos el template de 'Bot Application' a nuestros Templates en Visual Studio.
+
+[[https://github.com/piffarettig/azure-and-pizza-workshop/blob/master/img/octocat.png|alt=octocat]]

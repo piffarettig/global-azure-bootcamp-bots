@@ -98,5 +98,31 @@ Para esta parte utilizaremos la herramienta LUIS para que nuestro bot pueda ente
 
 IMAGEN 7
 
-
 Lo importante a ver aquí es que este modelo fue entrenado por quienes dictan el workshop para ahorrar el tiempo de entrenamiento del mismo. De todas formas, el modelo deberá ser mejorado y reentrenado para resolver ciertos casos que veremos en el workshop.
+
+
+2) La idea ahora es entender cómo funciona este modelo, cómo se lo entrena, cómo se definen entidades e intenciones.
+
+
+IMAGEN 8
+
+3) Ahora publicamos nuestro modelo yendo a la opción ```Publish App```, para ahí elegir la Comprar de crear una Key de Cognitive Services en Azure ```Build Key```. 
+
+
+IMAGEN 9
+
+
+Para ello nos loggeamos en nuestra cuenta de Azure y agregamos un nuevo recurso del tipo 'Cognitive Services API'. Lo configuramos para que sea del tipo ```Language Understanding Intelligence Service (LUIS)```.
+
+
+IMAGEN 10
+
+Finalmente nos quedamos con su Key que el valor que vamos a usar en LUIS.
+
+IMAGEN 11
+
+
+Volvemos a LUIS y agregamos los datos de la Key generada, pudiendo ahora sí publicar nuestra aplicación 
+
+
+IMAGEN 12

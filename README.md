@@ -10,8 +10,8 @@ El objetivo de este workshop es mostrar algunas de las capacidades existentes de
 
 Aquí se adjuntan las slides dadas en el evento que funcionan como introducción y marco teórico de los conceptos a poner en práctica:
 
-- SLIDE COGNITIVE
-- SLIDE BOT FR
+- Slides de Cognitive Services (Pendientes)
+- Slides de Bot Framework ()
 
 ## Pre-Workshop
 

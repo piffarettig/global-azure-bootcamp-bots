@@ -451,6 +451,22 @@ public class ImageCaptionUtils
 
 ```
 
- 
- 
- 
+4) Y finalmente, reemplazamos el código dentro del Post en MessagesController por:
+
+```C#
+  try
+     {
+         var connector = new ConnectorClient(new Uri(activity.ServiceUrl));
+         string message = await ImageCaptionUtils.GetCaptionAsync(activity, connector);
+         Activity reply = activity.CreateReply(message);
+         await connector.Conversations.ReplyToActivityAsync(reply);
+         // await Conversation.SendAsync(activity, () => new RootDialog());
+     }
+     catch (Exception e)
+     {
+         ConnectorClient connector = new ConnectorClient(new Uri(activity.ServiceUrl));
+         Activity reply = activity.CreateReply($"Error ocurrido: {e.Message}");
+         await connector.Conversations.ReplyToActivityAsync(reply);
+     }
+                
+ ```

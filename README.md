@@ -184,6 +184,29 @@ namespace AzureAndPizzaWorkshop
 
 ```
 
+
+Y finalmente en nuestro MessagesController, en el método POST, sustituimos el código por el siguiente:
+
+```C#
+
+ if (activity.Type == ActivityTypes.Message)
+ {
+     try
+     {
+         await Conversation.SendAsync(activity, () => new RootDialog());
+     } catch (Exception e)
+     {
+         ConnectorClient connector = new ConnectorClient(new Uri(activity.ServiceUrl));
+         Activity reply = activity.CreateReply($"Error ocurrido: {e.Message}");
+         await connector.Conversations.ReplyToActivityAsync(reply);
+     }
+ }
+ else
+ {
+     HandleSystemMessage(activity);
+ }
+```
+
 ## Workshop - Parte 3: Agregando lógica al reconocimiento del lenguaje
 
 En primer lugar creamos una nueva clase en el proyecto que contenga el comportamiento de desarmar las entidades e intenciones reconocidas en LUIS. La llamaremos ```LuisUtils```.

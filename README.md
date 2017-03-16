@@ -32,7 +32,7 @@ En este workshop construiremos un bot que reconoce imagenes
 - Bot Visual Studio Template - C# [(Descarga aquí)](http://aka.ms/bf-bc-vstemplate)
 - Bot Framework Emulator (Mac/Windows) - [(Descarga aquí)](https://emulator.botframework.com/)
 
-## Guía del Workshop
+## Workshop - Parte 1: Ambiente de desarrollo y fundamentos básicos un bot
 
 1) Agregamos el template de 'Bot Application' a nuestros Templates en Visual Studio. Para ello debemos descrimir el .zip y copiar la carpeta en ```C:\...\Documents\Visual Studio 2015\Templates\ProjectTemplates\Visual C#```
 
@@ -47,7 +47,7 @@ IMAGEN 2
 
 IMAGEN 3
 
-¿A que nos recuerda?
+¿A qué nos recuerda?
 
 
 Examinar el siguiente fragmento de código:
@@ -82,5 +82,18 @@ IMAGEN 4
 5) Abrimos el Bot Framework Emulator que deberíamos haber descargado previamente, y colocamos la ```Bot url```; es decir el endpoint en el que nuestro bot va a estar esperando recibir los mensajes por parte de los clientes.
 
 Si tu aplicación está corriendo sobre el puerto 12345, entonces tu ```bot url``` quedaría algo así:  ```http://localhost:12345/api/messages```
+
+
+IMAGEN 5
+
+6) Probamos nuestro bot a través del emulador y vemos lo qué sucede. ¿Qué hay detrás de cada mensaje que enviamos y recibimos mediante el bot?
+
+IMAGEN 6
+
+## Workshop - Parte 2: Reconocimiento de Lenguaje Natural
+
+Para esta parte utilizaremos la herramienta LUIS para que nuestro bot pueda entender las intenciones detrás de los mensajes que enviamos. De esa forma, podemos asignarle un cierto comportamiento o lógica a cada intención.
+
+1) Lo primero que haremos será registrar nuestro modelo de LUIS en el portal brindado por Azure para acceder a dicha funcionalidad. Para ello debemos ingresar a [(luis.ai)](https://www.luis.ai/home/index/).
 
 

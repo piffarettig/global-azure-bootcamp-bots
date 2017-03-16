@@ -17,7 +17,7 @@ Aquí se adjuntan las slides dadas en el evento que funcionan como introducción
 
 ### ¿Qué vamos a desarrollar? 
 
-En este workshop construiremos un bot que está pensado para personas no videntes; la idea es que los mismos puedan tener la posibilidad de interactuar conversacionalmente con su entorno de forma conversacional. Para simplificar el escenario, el mismo se realizará sobre un chat (lo ideal sería que fuera por voz), y en un escenario de domótica.
+En este workshop construiremos un bot que está pensado para personas no videntes; la idea es que los mismos puedan tener la posibilidad de interactuar conversacionalmente con su entorno. Para simplificar el escenario, el mismo se realizará sobre un chat (lo ideal sería que fuera por voz), y en un escenario de domótica.
 
 ### ¿Qué tecnologías vemos en este workshop
 

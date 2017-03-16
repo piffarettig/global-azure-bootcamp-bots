@@ -1,0 +1,40 @@
+c:\users\gabrielmac\documents\visual studio 2015\Projects\AzureAndPizzaWorkshop\AzureAndPizzaWorkshop\bin\Bot Application1.dll.config
+c:\users\gabrielmac\documents\visual studio 2015\Projects\AzureAndPizzaWorkshop\AzureAndPizzaWorkshop\bin\Bot Application1.dll
+c:\users\gabrielmac\documents\visual studio 2015\Projects\AzureAndPizzaWorkshop\AzureAndPizzaWorkshop\bin\Bot Application1.pdb
+c:\users\gabrielmac\documents\visual studio 2015\Projects\AzureAndPizzaWorkshop\AzureAndPizzaWorkshop\bin\Autofac.dll
+c:\users\gabrielmac\documents\visual studio 2015\Projects\AzureAndPizzaWorkshop\AzureAndPizzaWorkshop\bin\Chronic.dll
+c:\users\gabrielmac\documents\visual studio 2015\Projects\AzureAndPizzaWorkshop\AzureAndPizzaWorkshop\bin\Microsoft.Bot.Builder.dll
+c:\users\gabrielmac\documents\visual studio 2015\Projects\AzureAndPizzaWorkshop\AzureAndPizzaWorkshop\bin\Microsoft.Bot.Connector.dll
+c:\users\gabrielmac\documents\visual studio 2015\Projects\AzureAndPizzaWorkshop\AzureAndPizzaWorkshop\bin\Microsoft.IdentityModel.Protocol.Extensions.dll
+c:\users\gabrielmac\documents\visual studio 2015\Projects\AzureAndPizzaWorkshop\AzureAndPizzaWorkshop\bin\Microsoft.Rest.ClientRuntime.dll
+c:\users\gabrielmac\documents\visual studio 2015\Projects\AzureAndPizzaWorkshop\AzureAndPizzaWorkshop\bin\Microsoft.WindowsAzure.Configuration.dll
+c:\users\gabrielmac\documents\visual studio 2015\Projects\AzureAndPizzaWorkshop\AzureAndPizzaWorkshop\bin\Newtonsoft.Json.dll
+c:\users\gabrielmac\documents\visual studio 2015\Projects\AzureAndPizzaWorkshop\AzureAndPizzaWorkshop\bin\System.IdentityModel.Tokens.Jwt.dll
+c:\users\gabrielmac\documents\visual studio 2015\Projects\AzureAndPizzaWorkshop\AzureAndPizzaWorkshop\bin\System.Net.Http.Formatting.dll
+c:\users\gabrielmac\documents\visual studio 2015\Projects\AzureAndPizzaWorkshop\AzureAndPizzaWorkshop\bin\System.Web.Http.dll
+c:\users\gabrielmac\documents\visual studio 2015\Projects\AzureAndPizzaWorkshop\AzureAndPizzaWorkshop\bin\System.Web.Http.WebHost.dll
+c:\users\gabrielmac\documents\visual studio 2015\Projects\AzureAndPizzaWorkshop\AzureAndPizzaWorkshop\bin\Autofac.xml
+c:\users\gabrielmac\documents\visual studio 2015\Projects\AzureAndPizzaWorkshop\AzureAndPizzaWorkshop\bin\Microsoft.Bot.Builder.xml
+c:\users\gabrielmac\documents\visual studio 2015\Projects\AzureAndPizzaWorkshop\AzureAndPizzaWorkshop\bin\Microsoft.Bot.Connector.xml
+c:\users\gabrielmac\documents\visual studio 2015\Projects\AzureAndPizzaWorkshop\AzureAndPizzaWorkshop\bin\Microsoft.IdentityModel.Protocol.Extensions.pdb
+c:\users\gabrielmac\documents\visual studio 2015\Projects\AzureAndPizzaWorkshop\AzureAndPizzaWorkshop\bin\Microsoft.IdentityModel.Protocol.Extensions.xml
+c:\users\gabrielmac\documents\visual studio 2015\Projects\AzureAndPizzaWorkshop\AzureAndPizzaWorkshop\bin\Microsoft.Rest.ClientRuntime.xml
+c:\users\gabrielmac\documents\visual studio 2015\Projects\AzureAndPizzaWorkshop\AzureAndPizzaWorkshop\bin\Microsoft.WindowsAzure.Configuration.xml
+c:\users\gabrielmac\documents\visual studio 2015\Projects\AzureAndPizzaWorkshop\AzureAndPizzaWorkshop\bin\Newtonsoft.Json.xml
+c:\users\gabrielmac\documents\visual studio 2015\Projects\AzureAndPizzaWorkshop\AzureAndPizzaWorkshop\bin\System.IdentityModel.Tokens.Jwt.pdb
+c:\users\gabrielmac\documents\visual studio 2015\Projects\AzureAndPizzaWorkshop\AzureAndPizzaWorkshop\bin\System.IdentityModel.Tokens.Jwt.xml
+c:\users\gabrielmac\documents\visual studio 2015\Projects\AzureAndPizzaWorkshop\AzureAndPizzaWorkshop\bin\System.Net.Http.Formatting.xml
+c:\users\gabrielmac\documents\visual studio 2015\Projects\AzureAndPizzaWorkshop\AzureAndPizzaWorkshop\bin\System.Web.Http.xml
+c:\users\gabrielmac\documents\visual studio 2015\Projects\AzureAndPizzaWorkshop\AzureAndPizzaWorkshop\bin\System.Web.Http.WebHost.xml
+c:\users\gabrielmac\documents\visual studio 2015\Projects\AzureAndPizzaWorkshop\AzureAndPizzaWorkshop\bin\ar\Microsoft.Bot.Builder.resources.dll
+c:\users\gabrielmac\documents\visual studio 2015\Projects\AzureAndPizzaWorkshop\AzureAndPizzaWorkshop\bin\en\Microsoft.Bot.Builder.resources.dll
+c:\users\gabrielmac\documents\visual studio 2015\Projects\AzureAndPizzaWorkshop\AzureAndPizzaWorkshop\bin\es\Microsoft.Bot.Builder.resources.dll
+c:\users\gabrielmac\documents\visual studio 2015\Projects\AzureAndPizzaWorkshop\AzureAndPizzaWorkshop\bin\fa\Microsoft.Bot.Builder.resources.dll
+c:\users\gabrielmac\documents\visual studio 2015\Projects\AzureAndPizzaWorkshop\AzureAndPizzaWorkshop\bin\fr\Microsoft.Bot.Builder.resources.dll
+c:\users\gabrielmac\documents\visual studio 2015\Projects\AzureAndPizzaWorkshop\AzureAndPizzaWorkshop\bin\ja\Microsoft.Bot.Builder.resources.dll
+c:\users\gabrielmac\documents\visual studio 2015\Projects\AzureAndPizzaWorkshop\AzureAndPizzaWorkshop\bin\ru\Microsoft.Bot.Builder.resources.dll
+c:\users\gabrielmac\documents\visual studio 2015\Projects\AzureAndPizzaWorkshop\AzureAndPizzaWorkshop\bin\zh-hans\Microsoft.Bot.Builder.resources.dll
+c:\users\gabrielmac\documents\visual studio 2015\Projects\AzureAndPizzaWorkshop\AzureAndPizzaWorkshop\obj\Debug\AzureAndPizzaWorkshop.csprojResolveAssemblyReference.cache
+c:\users\gabrielmac\documents\visual studio 2015\Projects\AzureAndPizzaWorkshop\AzureAndPizzaWorkshop\obj\Debug\Bot Application1.dll
+c:\users\gabrielmac\documents\visual studio 2015\Projects\AzureAndPizzaWorkshop\AzureAndPizzaWorkshop\obj\Debug\Bot Application1.pdb
+c:\users\gabrielmac\documents\visual studio 2015\Projects\AzureAndPizzaWorkshop\AzureAndPizzaWorkshop\bin\Microsoft.Cognitive.LUIS.dll

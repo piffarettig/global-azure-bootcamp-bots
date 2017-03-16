@@ -94,7 +94,7 @@ IMAGEN 6
 
 Para esta parte utilizaremos la herramienta LUIS para que nuestro bot pueda entender las intenciones detrás de los mensajes que enviamos. De esa forma, podemos asignarle un cierto comportamiento o lógica a cada intención.
 
-1) Lo primero que haremos será registrar nuestro modelo de LUIS en el portal brindado por Azure para acceder a dicha funcionalidad. Para ello debemos ingresar a [(luis.ai)](https://www.luis.ai/home/index/) y elegir ```Import App```. De esa forma elegimos el archivo .json que existe en este repositorio y desde el cual importaremos este modelo.
+1) Lo primero que haremos será registrar nuestro modelo de LUIS en el portal brindado por Azure para acceder a dicha funcionalidad. Para ello debemos ingresar a [(luis.ai)](https://www.luis.ai/home/index/) e iniciar sesión con una cuenta de Microsoft (Ay elegir ```Import App```. De esa forma elegimos el archivo .json que existe en este repositorio y desde el cual importaremos este modelo.
 
 IMAGEN 7
 

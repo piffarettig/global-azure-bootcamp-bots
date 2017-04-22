@@ -109,10 +109,6 @@ Para ello nos loggeamos en nuestra cuenta de Azure y agregamos un nuevo recurso 
 
 Finalmente nos quedamos con su Key que el valor que vamos a usar en LUIS.
 
-
-![alt tag](https://github.com/piffarettig/azure-and-pizza-workshop/blob/develop/Workshop-images/11.png)
-
-
 Volvemos a LUIS y agregamos los datos de la Key generada, pudiendo ahora sí publicar nuestra aplicación 
 
 

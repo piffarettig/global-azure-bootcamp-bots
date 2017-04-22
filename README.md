@@ -1,6 +1,6 @@
-# Azure & Pizza - Workshop (Bot Framework + Cognitive Services)
+# Global Azure Bootcamp - Workshop (Bot Framework + Cognitive Services)
 
-Workshop para el evento Azure &amp; Pizza llevado a cabo en Montevideo y organizado por Microsoft y Green Blue Technologies
+Workshop para el evento Global Azure Bootcamp Uruguay. Talk por Gabriel Piffaretti (22/04/2017(.
 
 ## Objetivo
 
@@ -132,7 +132,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Web;
 
-namespace AzureAndPizzaWorkshop
+namespace GlobalAzureWorkshopBot
 {
     [LuisModel("aa0a4611-115d-488e-a0af-36288e550c35", "d374875c80fe40ff8e7d8a085caeca64")]
     [Serializable]

@@ -1,6 +1,6 @@
 # Global Azure Bootcamp - Workshop (Bot Framework + Cognitive Services)
 
-Workshop para el evento Global Azure Bootcamp Uruguay. Talk por Gabriel Piffaretti (22/04/2017(.
+Workshop para el evento Global Azure Bootcamp Uruguay. Talk por Gabriel Piffaretti (22/04/2017).
 
 ## Objetivo
 
